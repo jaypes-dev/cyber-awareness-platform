@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block content %}
+<h1><i class="fas fa-tools"></i> Admin Dashboard</h1>
+
+<div class="cyber-card">
+  <h4>📬 Monthly Security Awareness Kits</h4>
+  <ul>
+    <li><a href="#">April – Password Policy Guide</a></li>
+    <li><a href="#">May – Phishing Spotting Checklist</a></li>
+  </ul>
+</div>
+
+<div class="cyber-card">
+  <h4>🧠 Phishing Simulation</h4>
+  <p>Generate and simulate phishing attacks using AI mockups.</p>
+  <a class="btn btn-sm btn-primary" href="/api/generate_phishing">Generate Email ☠</a>
+</div>
+{% endblock %}
