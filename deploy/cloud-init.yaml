@@ -8,7 +8,7 @@ packages:
   - npm
 
 runcmd:
-  - git clone https://github.com/your-username/cyber-awareness-platform.git /opt/cyber-awareness
+  - git clone https://github.com/jaypes-dev/cyber-awareness-platform.git /opt/cyber-awareness
   - cd /opt/cyber-awareness/backend
   - pip3 install -r requirements.txt
   - nohup python3 app.py &
