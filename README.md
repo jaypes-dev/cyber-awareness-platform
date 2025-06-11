@@ -10,9 +10,6 @@ A lightweight cybersecurity micro-training and phishing simulation platform aime
 - 📝 Simple quizzes
 - 📧 Phishing simulation (coming soon)
 
-## Preview
-
-![screenshot](preview.png)
 
 ## How to Run
 
